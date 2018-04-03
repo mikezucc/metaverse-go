@@ -1,0 +1,9 @@
+[submodule "src/github.com/googollee/go-engine.io"]
+	path = src/github.com/googollee/go-engine.io
+	url = http://github.com/googollee/go-engine.io
+[submodule "src/github.com/googollee/go-socket.io"]
+	path = src/github.com/googollee/go-socket.io
+	url = https://github.com/googollee/go-socket.io
+[submodule "src/github.com/gorilla/websocket"]
+	path = src/github.com/gorilla/websocket
+	url = https://github.com/gorilla/websocket
