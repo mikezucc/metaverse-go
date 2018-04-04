@@ -114,8 +114,8 @@ func main() {
 
 	http.Handle("/socket.io/", server)
 	http.Handle("/", http.FileServer(http.Dir("./asset")))
-	log.Println("[SOCKETIO] Serving at localhost:3003...")
-	log.Fatal(http.ListenAndServe(":3003", nil))
+	log.Println("[SOCKETIO] Serving at localhost:3004...")
+	log.Fatal(http.ListenAndServe(":3004", nil))
 	/**
 
 	SOCKET.IO GO
