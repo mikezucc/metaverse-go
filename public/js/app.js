@@ -8,7 +8,7 @@ window.onload = function() {
   window.AudioContext = window.AudioContext || window.webkitAudioContext;
   var audioCtx = new AudioContext();
   
-  var k_SOCKET_ENDPOINT_PUBLIC_OSIRIS = "ws://" + window.location.hostname + ':3003';
+  var k_SOCKET_ENDPOINT_PUBLIC_OSIRIS = "ws://" + window.location.hostname + ':3004';
   // IMPORTANT! In order to support CORS, we ban XHR polling
   // https://github.com/socketio/socket.io-client/issues/641
   /**
