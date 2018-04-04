@@ -12,10 +12,10 @@ Multiplayer metaverse rendered using A-Frame. Hosting and multiplayer through So
 There are two servers, one for serving static files and one for communicating through to clients via Go
 
 Static file server (Metaverse Main World)
-1. go run scklogserver.go
+1. go run scklogserver.go => Listening on `:3002`
 
 Socket io server (Metaverse data exchange protocol)
-1. go run socket.go
+1. go run socket.go => Listening on `:3004`
 
 Connect to it by opening separate browser windows: http://localhost:3002/worlds/main.html
 
