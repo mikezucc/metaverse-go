@@ -50,7 +50,6 @@ func main() {
 	ticker := time.NewTicker(200 * time.Millisecond)
 	go func() {
 			for _ = range ticker.C {
-				fmt.Print("x")
 				finalString := "["
 				for index, gram := range datagramQueue {
 					if index > 0 {
