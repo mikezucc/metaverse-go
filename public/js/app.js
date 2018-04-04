@@ -7,10 +7,8 @@ window.onload = function() {
   // used for VOIP because its novel
   window.AudioContext = window.AudioContext || window.webkitAudioContext;
   var audioCtx = new AudioContext();
-
-  // IPFS PubSub Room based example
-  // IPFS npm install was missing half of the apparent dependencies
-  var k_SOCKET_ENDPOINT_PUBLIC_OSIRIS = "ws://localhost:3003"
+  
+  var k_SOCKET_ENDPOINT_PUBLIC_OSIRIS = "ws://" + window.location.hostname + ':3003';
   // IMPORTANT! In order to support CORS, we ban XHR polling
   // https://github.com/socketio/socket.io-client/issues/641
   /**
