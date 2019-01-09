@@ -1,6 +1,8 @@
 # metaverse-go
 Multiplayer metaverse rendered using A-Frame. Hosting and multiplayer through Socket.io, WebRTC, and HTTP Go server.
 
+If you're looking for my Node implementation: https://github.com/mikezucc/metaverse-js-centralized
+
 ## Install
 
 1. Install go
